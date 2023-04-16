@@ -1,0 +1,38 @@
+.footer{
+    padding: 20px;
+    margin-top: 10vh;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.follow_cont{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.head{
+    font-weight: bolder;
+    font-size: 3vh;
+}
+.line{
+    width: 50%;
+    margin: 4vh 0;
+}
+.rule_cont{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-bottom: 3.5vh;
+}
+.name{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.logo,.rule{
+    cursor: pointer;
+}

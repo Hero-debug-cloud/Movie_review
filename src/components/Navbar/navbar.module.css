@@ -1,0 +1,69 @@
+.navbar{
+    height: 8vh;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.inner{
+    display: flex;
+    height: 100%;
+}
+.left,.right{
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.left{
+    width: 20%;
+}
+.right{
+    justify-content: space-evenly;
+    width: 80%;
+}
+.logo_cont{
+    height: 35px;
+    background-color: lightgray;
+    width: 5vw;
+    margin-left: 1vw;
+}
+.cate_cont{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+.search_cont{
+    display: flex;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+}
+.input{
+    width: 90%;
+    /* padding: 6px; */
+    border: none;
+}
+.input:focus{
+    outline: none;
+}
+.search{
+    cursor: pointer;
+}
+.info{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.use{
+    display: flex;
+    align-items: center;
+}
+.noti,.user_logo{
+    cursor: pointer;
+}
+.name{
+    font-size:3vh;
+    margin-left: 0.5vw;
+}

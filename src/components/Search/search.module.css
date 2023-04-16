@@ -1,0 +1,11 @@
+.search{
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 7vh;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap:30px 14vw;
+}
